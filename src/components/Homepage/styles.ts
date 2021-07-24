@@ -36,10 +36,20 @@ export const ReadMoreButton = styled.button`
     width: 250px;
     height: 3.5rem;
     margin-top: 1rem;
+
     background: ${props => props.theme.colors.secundary};
+
     border: 0;
     border-radius: 1rem;
+
     font-size: 1.25rem;
     font-weight: bold;
     color: ${props => props.theme.colors.buttonText};
+
+    cursor: pointer;
+    transition: filter 0.3s;
+
+    &:hover{
+        filter: brightness(0.9);
+    }
 `
