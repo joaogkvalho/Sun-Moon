@@ -15,7 +15,7 @@ export function Header({ toggleTheme }: HeaderProps){
     return(
         <Container>
             <Content>
-                <h1>sun&amp;moon</h1>
+                <h1>sun&amp;<span>moon</span></h1>
                     <Switch 
                         onChange={toggleTheme}
                         checked={title === 'dark'}

@@ -10,6 +10,7 @@ export module 'styled-components' {
 
             background: string,
             text: string
+            buttonText: string,
         },
     }
 }

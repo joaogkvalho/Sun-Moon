@@ -3,8 +3,11 @@ export default{
 
     colors: {
         primary: '#333',
+        secundary: '#EADD0C',
 
         background: '#222',
-        text: '#fff'
+        text: '#fff',
+
+        buttonText: '#fff'
     },
 }

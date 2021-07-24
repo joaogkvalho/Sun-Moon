@@ -21,6 +21,10 @@ export const Content = styled.div`
         font-weight: 700;
     }
 
+    span{
+        color: yellow;
+    }
+
     svg{
         width: 20px;
         height: 20px;
