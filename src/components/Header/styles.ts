@@ -17,6 +17,10 @@ export const Content = styled.div`
 
     color: #fff;
 
+    h1{
+        font-weight: 700;
+    }
+
     svg{
         width: 20px;
         height: 20px;
