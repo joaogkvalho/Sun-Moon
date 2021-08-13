@@ -11,7 +11,7 @@ export const Container = styled.div`
     justify-content: center;
 `
 
-export const Content = styled.div`
+export const Content = styled.main`
     text-align: center;
 
     span{
@@ -20,13 +20,13 @@ export const Content = styled.div`
     }
 
     h1{
-        font-size: 2rem;
+        font-size: 3rem;
         font-weight: 700;
         margin: 1rem 0;
     }
 
     p{
-        font-size: 1rem;
+        font-size: 1.5rem;
         font-weight: 400;
         margin: 1rem 0;
     }

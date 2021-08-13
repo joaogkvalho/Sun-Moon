@@ -1,6 +1,5 @@
 import { Container, Content, ReadMoreButton } from "./styles";
 
-
 export function Homepage() {
     return(
         <Container>
@@ -14,7 +13,7 @@ export function Homepage() {
                 <ReadMoreButton>
                     Read more
                 </ReadMoreButton>
-            </Content>     
+            </Content>
         </Container>
     )
 }
