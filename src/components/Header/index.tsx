@@ -15,18 +15,19 @@ export function Header({ toggleTheme }: HeaderProps){
     return(
         <Container>
             <Content>
-                <h1>sun&amp;<span>moon</span></h1>
-                    <Switch 
-                        onChange={toggleTheme}
-                        checked={title === 'dark'}
-                        uncheckedIcon={<FaSun color="yellow" />}
-                        checkedIcon={<FaMoon />}
-                        height={30}
-                        width={80}
-                        handleDiameter={30}
-                        onColor={shade(0.15, colors.primary)}
-                        offColor={shade(0.15, colors.primary)}
-                    />
+                    <h1>sun&amp;<span>moon</span></h1>
+
+                        <Switch 
+                            onChange={toggleTheme}
+                            checked={title === 'dark'}
+                            uncheckedIcon={<FaSun color="yellow" />}
+                            checkedIcon={<FaMoon />}
+                            height={30}
+                            width={80}
+                            handleDiameter={30}
+                            onColor={shade(0.15, colors.primary)}
+                            offColor={shade(0.15, colors.primary)}
+                        />
                 </Content>
         </Container>        
     )

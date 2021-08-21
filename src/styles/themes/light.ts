@@ -8,6 +8,9 @@ export default{
         background: '#f5f5f5',
         text: '#333',
 
-        buttonText: '#fff'
+        buttonText: '#fff',
+
+        socialIconsBg: '#065fd4',
+        socialIconsText: '#fff'
     },
 }

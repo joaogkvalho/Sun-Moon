@@ -32,4 +32,3 @@ export const Content = styled.div`
         margin: 5px 12px; 
     }
 `
-
