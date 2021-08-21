@@ -1,6 +1,7 @@
 import { useContext } from 'react'
-import { Container, Content } from "./styles";
+import { Container, Content, SearchInput } from "./styles";
 import { FaMoon, FaSun} from 'react-icons/fa'
+import { FiSearch } from 'react-icons/fi'
 import Switch from 'react-switch'
 import { ThemeContext } from 'styled-components'
 import { shade } from 'polished'
@@ -17,17 +18,22 @@ export function Header({ toggleTheme }: HeaderProps){
             <Content>
                     <h1>sun&amp;<span>moon</span></h1>
 
-                        <Switch 
-                            onChange={toggleTheme}
-                            checked={title === 'dark'}
-                            uncheckedIcon={<FaSun color="yellow" />}
-                            checkedIcon={<FaMoon />}
-                            height={30}
-                            width={80}
-                            handleDiameter={30}
-                            onColor={shade(0.15, colors.primary)}
-                            offColor={shade(0.15, colors.primary)}
-                        />
+                    <SearchInput>
+                        <input type="text" />
+                        <FiSearch />
+                    </SearchInput>
+
+                    <Switch 
+                        onChange={toggleTheme}
+                        checked={title === 'dark'}
+                        uncheckedIcon={<FaSun color="yellow" />}
+                        checkedIcon={<FaMoon />}
+                        height={30}
+                        width={80}
+                        handleDiameter={30}
+                        onColor={shade(0.15, colors.primary)}
+                        offColor={shade(0.15, colors.primary)}
+                    />
                 </Content>
         </Container>        
     )

@@ -3,7 +3,7 @@ import styled from 'styled-components'
 export const Container = styled.div`
     max-width: 1120px;
     margin: 0 auto;
-    padding: 0 3rem;
+    padding: 0 1.5rem;
     height: calc(100vh - 5rem);
 
     display: flex;
@@ -15,26 +15,26 @@ export const Content = styled.main`
     text-align: center;
 
     span{
-        font-size: 1.25rem;
+        font-size: 1.5rem;
         font-weight: 400;
     }
 
     h1{
-        font-size: 2.15rem;
+        font-size: 2.5rem;
         font-weight: 700;
         margin: 1rem 0;
     }
 
     p{
-        font-size: 1rem;
+        font-size: 1.25rem;
         font-weight: 400;
         margin: 1rem 0;
     }
 `
 
 export const ReadMoreButton = styled.button`
-    width: 245px;
-    height: 3.25rem;
+    width: 250px;
+    height: 3.5rem;
     margin-top: 1rem;
 
     background: ${props => props.theme.colors.secundary};
@@ -64,7 +64,7 @@ export const SocialIcons = styled.div`
 
     position: absolute;
     left: 0;
-    top: 35%;
+    top: 40%;
 
     background: ${props => props.theme.colors.socialIconsBg};
     color: ${props => props.theme.colors.socialIconsText};

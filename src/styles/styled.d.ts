@@ -10,10 +10,14 @@ export module 'styled-components' {
             terciary: string,
 
             background: string,
-            text: string
+            text: string,
             buttonText: string,
+
             socialIconsBg: string,
-            socialIconsText: string
+            socialIconsText: string,
+
+            searchInputBg: string,
+            searchInputText: string,
         },
     }
 }

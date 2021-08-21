@@ -32,3 +32,38 @@ export const Content = styled.div`
         margin: 5px 12px; 
     }
 `
+
+export const SearchInput = styled.div`
+    @media screen and (max-width: 800px){
+        display: none;
+    }
+
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    width: 280px;
+    height: 2.75rem;
+    padding: 12px;
+
+    background: ${props => props.theme.colors.searchInputBg};
+    border-radius: 30px;
+
+    input{  
+        padding: 10px;
+
+        background: transparent;
+        border: 0;
+        outline: none;
+
+        color: ${props => props.theme.colors.searchInputText};
+    }
+
+    svg{
+        width: 20px;
+        height: 20px;
+        color: ${props => props.theme.colors.searchInputText};
+
+        cursor: pointer;
+    }
+`

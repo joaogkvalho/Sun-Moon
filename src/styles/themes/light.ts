@@ -11,6 +11,9 @@ export default{
         buttonText: '#fff',
 
         socialIconsBg: '#065fd4',
-        socialIconsText: '#fff'
+        socialIconsText: '#fff',
+
+        searchInputBg: '#f5f5f5',
+        searchInputText: '#333'
     },
 }
