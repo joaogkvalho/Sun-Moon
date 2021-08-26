@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import { Container, Content, SearchInput } from "./styles";
+import { Container, Content } from "./styles";
 import { FaMoon, FaSun} from 'react-icons/fa'
 import { FiSearch } from 'react-icons/fi'
 import Switch from 'react-switch'
@@ -17,11 +17,6 @@ export function Header({ toggleTheme }: HeaderProps){
         <Container>
             <Content>
                     <h1>sun&amp;<span>moon</span></h1>
-
-                    <SearchInput>
-                        <input type="text" />
-                        <FiSearch />
-                    </SearchInput>
 
                     <Switch 
                         onChange={toggleTheme}
