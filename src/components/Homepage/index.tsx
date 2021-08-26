@@ -20,10 +20,18 @@ export function Homepage() {
 
 
             <SocialIcons>
-                <FiInstagram />
-                <FiFacebook />
-                <FiGithub />
-                <FiTwitter />
+                <a href="https://instagram.com/gabriel.karv" target="_blank">
+                    <FiInstagram />
+                </a>
+                <a href="https://www.facebook.com/jhonsgabriels" target="_blank">
+                    <FiFacebook />
+                </a>
+                <a href="https://github.com/joaogkvalho" target="_blank">
+                    <FiGithub />
+                </a>
+                <a href="https://twitter.com/joaogkvalho" target="_blank">
+                    <FiTwitter />
+                </a>
             </SocialIcons>
         </>
     )

@@ -67,7 +67,6 @@ export const SocialIcons = styled.div`
     top: 40%;
 
     background: ${props => props.theme.colors.socialIconsBg};
-    color: ${props => props.theme.colors.socialIconsText};
 
     padding: 2px;
 
@@ -79,5 +78,9 @@ export const SocialIcons = styled.div`
         margin: 10px;
 
         cursor: pointer;
+    }
+
+    a{
+        color: ${props => props.theme.colors.socialIconsText};;
     }
 `
