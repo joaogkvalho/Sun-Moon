@@ -1,5 +1,4 @@
-import { Container, Content, ReadMoreButton, SocialIcons } from "./styles";
-import { FiInstagram, FiGithub, FiFacebook, FiTwitter } from 'react-icons/fi'
+import { Container, Content, ReadMoreButton } from "./styles";
 
 export function Homepage() {
     return(
@@ -17,22 +16,6 @@ export function Homepage() {
                     </ReadMoreButton>
                 </Content>
             </Container>
-
-
-            <SocialIcons>
-                <a href="https://instagram.com/gabriel.karv" target="_blank">
-                    <FiInstagram />
-                </a>
-                <a href="https://www.facebook.com/jhonsgabriels" target="_blank">
-                    <FiFacebook />
-                </a>
-                <a href="https://github.com/joaogkvalho" target="_blank">
-                    <FiGithub />
-                </a>
-                <a href="https://twitter.com/joaogkvalho" target="_blank">
-                    <FiTwitter />
-                </a>
-            </SocialIcons>
         </>
     )
 }

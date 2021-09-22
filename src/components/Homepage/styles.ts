@@ -53,34 +53,3 @@ export const ReadMoreButton = styled.button`
         filter: brightness(0.9);
     }
 `
-
-export const SocialIcons = styled.div`
-    @media screen and (max-width: 800px){
-        display: none;
-    }
-
-    display: flex;
-    flex-direction: column;
-
-    position: absolute;
-    left: 0;
-    top: 40%;
-
-    background: ${props => props.theme.colors.socialIconsBg};
-
-    padding: 2px;
-
-    border-radius: 0 8px 8px 0;
-
-    svg{
-        width: 23px;
-        height: 23px;
-        margin: 10px;
-
-        cursor: pointer;
-    }
-
-    a{
-        color: ${props => props.theme.colors.socialIconsText};;
-    }
-`
