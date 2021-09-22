@@ -40,7 +40,7 @@ export const ReadMoreButton = styled.button`
     background: ${props => props.theme.colors.secundary};
 
     border: 0;
-    border-radius: 1rem;
+    border-radius: 8px;
 
     font-size: 1.25rem;
     font-weight: bold;
