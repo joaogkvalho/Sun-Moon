@@ -1,31 +1,39 @@
-![sun-moon](https://user-images.githubusercontent.com/50122135/181518146-a59e05e3-411d-4dba-834e-8470a0bf4871.png)
+<h1 align="center"> sun-moon </h1>
 
-> Status: Finished ✔️
+<p align="center">
+  <a href="#-tecnologias">Tecnologias</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#-projeto">Projeto</a>&nbsp;&nbsp;&nbsp;|&nbsp;&nbsp;&nbsp;
+  <a href="#memo-licença">Licença</a>
+</p>
 
-### Sun&Moon is a very simple theme switcher created with React and Styled Components
+<p align="center">
+  <img alt="License" src="https://img.shields.io/static/v1?label=license&message=MIT&color=49AA26&labelColor=000000">
+</p>
 
-## Some features used on this project
+<br>
 
-* Theme switcher with styled components
-* Theme state saved in the localStorage
-  
-## Technologies used
-  
-<table>
-  <tr>
-    <td>React</td>
-    <td>Styled Components</td>
-  </tr>
+<p align="center">
+  <img alt="projeto do curso discover" src=".github/preview.png" width="100%">
+</p>
 
-  <tr>
-    <td>17.0.2</td>
-    <td>5.3.0</td>
-  </tr>
-</table>
-  
-## How to run this project
+## 🚀 Tecnologias
 
-1) Clone the repositorie from my Github.
-2) Enter in the project folder on your code editor.
-3) Run the command "yarn" to install all the dependencies used in the project.
-4) Run the command "yarn start" to run the project on your computer.
+Esse projeto foi desenvolvido com as seguintes tecnologias:
+
+- ReactJS
+- Styled Components
+
+## 🔥 Algumas features neste projeto
+
+- Switcher de temas com styled-components
+- Estado do tema salvo no localStorage
+
+## 💻 Projeto
+
+- Sun&Moon é uma simples aplicação de troca de temas criado com React e Styled Components
+
+## 📝 Licença
+
+Esse projeto está sob a licença MIT.
+
+---
